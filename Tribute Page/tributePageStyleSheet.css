@@ -1,0 +1,47 @@
+body {
+    background-color: white;
+  }
+  #main {
+    background-color: lightgrey;
+    margin : 2%;
+  }
+  header {
+    text-align:center;
+  }
+  
+  header p {
+    font-weight: 500;
+  }
+  
+  #img-div {
+    margin:10px;
+    background-color:white;
+  }
+  
+  #image {
+    display : block;
+    margin:auto;
+    padding:20px;
+     max-width:100%;
+  }
+  
+  #img-caption {
+    text-align:center;
+    font-weight:500;
+    padding:20px;
+  }
+  
+  #tribute-info h2 {
+    text-align:center;  
+    margin-top : 30px;
+  }
+  #tribute-info ul , #tribute-info blockquote {
+    margin:50px 30% 50px 30%;
+    line-height:25px;
+  }
+  footer {
+    text-align:center;
+    font-weight : 1000;
+    font-size:20px;
+    padding:20px;
+  }
