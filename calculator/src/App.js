@@ -39,7 +39,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="Calculator">
-        {console.log(eval("2**3"))}
+        
         <input className="Display" value={this.state.value} readOnly />
         <div className="Buttons">
           <button
@@ -49,11 +49,7 @@ class App extends React.Component {
           >
             C
           </button>
-          <button
-            className="Btn"
-            onClick={() => this.manageInput("**")}
-            style={{ backgroundColor: "darkgray" }}
-          >
+          <button className="Btn" onClick={() => this.manageInput("**")} style={{ backgroundColor: "darkgray" }}>
             ^
           </button>
           <button
