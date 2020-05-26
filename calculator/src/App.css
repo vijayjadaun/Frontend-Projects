@@ -1,0 +1,44 @@
+.Calculator {
+  position:fixed;
+  background-color:white;
+  margin: 0 auto;
+  left:25%;
+  right:25%;
+  top:10%;
+  bottom:10%;
+  width:30%;
+  border-radius:5px;
+  box-sizing: border-box;
+  
+  
+}
+
+.Display {
+  width: 100%;
+  box-sizing: border-box;
+  height: 30%;
+  text-align: right;
+  font-size : 5em;
+  background-color:black;
+  padding: 1%;
+  border: 0;
+  color:white;
+  caret-color: transparent;
+}
+
+.Buttons {
+  display: grid;
+  grid-template-columns:25% 25% 25% 25%;
+  grid-template-rows: 85% 85% 85% 85% 85%;
+}
+
+.Btn {
+  width:100%;
+  height: 100%;
+  background-color: lightgrey;
+  font-weight: 700;
+  border: 1px solid gray;
+}
+
+
+
